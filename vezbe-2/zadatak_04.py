@@ -5,7 +5,5 @@ def proveri_trougao():
 
     if a < ( b + c ) and b < ( a + c ) and c < ( a + b ):
         print("Trougao postoji.")
-        return 0
     else:
         print("Trougao ne postoji.")
-        return 1
